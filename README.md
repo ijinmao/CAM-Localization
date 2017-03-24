@@ -30,5 +30,4 @@ After trianning the CAM-model, you can use the input features of GAP layer and t
 
 Below image is from [kaggle competition](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring).
 
-
-
+![screenshot](https://github.com/ijinmao/CAM-Localization/blob/master/cam_example1.png)
