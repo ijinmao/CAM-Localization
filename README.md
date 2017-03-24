@@ -23,3 +23,12 @@ View `demo.py`.
 First you need to convert your pretrained model to CAM-model. And then train the new model on your data. See the sample function `train_cam_model` in `demo.py`.
 
 After trianning the CAM-model, you can use the input features of GAP layer and the weights of last classifier to generate final output. See the sample function `plot_cam_map` in `demo.py`.
+
+
+
+## Examples
+
+Below image is from [kaggle competition](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring).
+
+
+

@@ -20,7 +20,7 @@ def read_model(model_path, weigths_path):
 	model.load_weights(weigths_path)
 	return model
 
-def train_cam_model(model, X_train, Y_train, X_test, Y_test, 
+def train_cam_model(X_train, Y_train, X_test, Y_test, 
 					batch_size, nb_epoch):
 	"""Train CAM model based on your pretrained model
 
@@ -104,6 +104,7 @@ def plot_cam_map(img_path, img_size, batch_size, label_plot):
 	im_cam = get_cam_img(model,
 						 test_data,
 						 label_plot,
+						 CAM_CONV_LAYER,
 						 ratio=img_size / gap_spacial_size)
 
 	# Resize if the shape of class map is not equal to original image
